@@ -5,7 +5,7 @@ const app = express();
 
 app.use('/api/v1/number/', require('./routes/numberRoutes'));
 
-app.listen(80, function() {
+app.listen(8267, function() {
     console.log('Server start!',
-        `Example app listening on port ${80}!`);
+        `Example app listening on port ${8267}!`);
 });
